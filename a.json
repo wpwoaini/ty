@@ -1,12 +1,12 @@
 {
     "bookDelayTime": "",
     "bookSingleThread": "否",
-    "bookSourceGroup": "大陆可用",
+    "bookSourceGroup": "◯ 漫画",
     "bookSourceName": "漫蛙",
     "bookSourceType": "漫画",
-    "bookSourceUrl": "https://manwayu.cc",
+    "bookSourceUrl": "https://manwaqu.cc",
     "enable": true,
-    "httpUserAgent": "Mozilla/5.0 (Linux; Android 10; HarmonyOS; PCT-AL10; HMSCore 6.5.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.105 HuaweiBrowser/12.1.0.302 Mobile Safari/537.36",
+    "httpUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36",
     "lastUpdateTime": 0,
     "loginUrl": "https://manwayu.cc/user/login",
     "loginUrlResult": "",
@@ -28,7 +28,7 @@
     "ruleContentUrlNext": "",
     "ruleCoverDecoder": "",
     "ruleCoverUrl": ".detail-main-cover img@data-original",
-    "ruleFindUrl": "最近更新::/cate/?page={searchPage}\n全部::/booklist?page={searchPage}\nVIP无码::/booklist?page={searchPage}&level=2\n一般向::/booklist?page={searchPage}&gender=2\nBL向::/booklist?page={searchPage}&gender=0\nTL向::/booklist?page={searchPage}&gender=1\n禁漫::/booklist?page={searchPage}&gender=1\n韩国::/getBooks?page={searchPage}&area=2&sort=-1\n日漫::/getBooks?page={searchPage}&area=3&sort=-1\n国漫::/getBooks?page={searchPage}&area=4&sort=-1\n台漫::/getBooks?page={searchPage}&area=1&sort=-1",
+    "ruleFindUrl": "首页::https://manwaqu.cc/\n全部::https://manwayu.cc/booklist?page={searchPage}\nVIP无码::https://manwayu.cc/booklist?page={searchPage}&level=2\n一般向::https://manwayu.cc/booklist?page={searchPage}&gender=2\nBL向::https://manwayu.cc/booklist?page={searchPage}&gender=0\nTL向::https://manwayu.cc/booklist?page={searchPage}&gender=1\nGL向::https://manwayu.cc/booklist?page={searchPage}&gender=3\n禁漫::https://manwayu.cc/booklist?page={searchPage}&gender=1\n韩国::https://manwayu.cc/getBooks?page={searchPage}&area=2&sort=-1\n日漫::https://manwayu.cc/getBooks?page={searchPage}&area=3&sort=-1\n国漫::https://manwayu.cc/getBooks?page={searchPage}&area=4&sort=-1\n台漫::https://manwayu.cc/getBooks?page={searchPage}&area=1&sort=-1\n连载中::https://manwayu.cc/booklist?page={searchPage}&status=1\n已完结::https://manwayu.cc/booklist?page={searchPage}&status=2\n新作::https://manwayu.cc/cate/?page={searchPage}\n热门::https://manwayu.cc/cate/?page={searchPage}",
     "ruleIntroduce": ".detail-desc@text",
     "ruleSearchAuthor": ".book-list-info-bottom-item@text||$.author_name@js:result.replace(\"作者：\",\"\")",
     "ruleSearchCoverDecoder": "",
@@ -40,7 +40,7 @@
     "ruleSearchNoteUrl": "tag.a.0@href||$.id@js:\"https://manwayu.cc/book/\"+result.match(/\\d+/)",
     "ruleSearchUrl": "https://manwaqu.cc/search?keyword=searchKey",
     "ruleSearchUrlNext": "",
-    "serialNumber": 3,
-    "sourceRemark": "no",
-    "weight": 1
+    "serialNumber": 1,
+    "sourceRemark": "manwaqu / manwayu 适配",
+    "weight": 8106
 }
