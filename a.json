@@ -28,7 +28,7 @@
     "ruleContentUrlNext": "",
     "ruleCoverDecoder": "",
     "ruleCoverUrl": ".detail-main-cover img@data-original",
-    "ruleFindUrl": "最近更新::/cate/?page={searchPage}\n全部::/booklist?page={searchPage}\nVIP无码::/booklist?page={searchPage}&level=2\n一般向::/booklist?page={searchPage}&gender=2\nBL向::/booklist?page={searchPage}&gender=0\nTL向::/booklist?page={searchPage}&gender=1\n禁漫::/booklist?page={searchPage}&gender=1\n韩国::/getBooks?page={searchPage}&area=2&sort=-1\n日漫::/getBooks?page={searchPage}&area=3&sort=-1\n国漫::/getBooks?page={searchPage}&area=4&sort=-1\n台漫::/getBooks?page={searchPage}&area=1&sort=-1",
+    "ruleFindUrl": "最近更新::/cate/?page={searchPage}\n全部::/booklist?page={searchPage}\nVIP无码::/booklist?page={searchPage}&level=2\n一般向::/booklist?page={searchPage}&gender=2\nBL向::/booklist?page={searchPage}&gender=0\nTL向::/booklist?page={searchPage}&gender=1\n禁漫::/booklist?page={searchPage}&gender=1\n韩国::/getBooks?page={searchPage}&area=2&sort=-1\n日漫::/getBooks?page={searchPage}&area=3&sort=-1\n国漫::/getBooks?page={searchPage}&area=4&sort=-1",
     "ruleIntroduce": ".detail-desc@text",
     "ruleSearchAuthor": ".book-list-info-bottom-item@text||$.author_name@js:result.replace(\"作者：\",\"\")",
     "ruleSearchCoverDecoder": "",
